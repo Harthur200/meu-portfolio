@@ -24,4 +24,4 @@ GitHub = versionamento e armazenamento do projeto
 Arthur Costa
 
 GitHub:https://github.com/Harthur200
-E-mail:arthurcosta2727@gmail.com
+E-mail:arthur.costa8@aluno.senai.br
