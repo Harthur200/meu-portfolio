@@ -1,35 +1,47 @@
-<header>
+<header class="navbar-container">
+
   <nav>
-    <a routerLink="/sobre" routerLinkActive="active">
-      Sobre /
-    </a>
+
+    <div class="logo">
+      AC
+    </div>
 
     <a
-      routerLink="/objetivo-profissional"
+      routerLink="/sobre"
       routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
     >
-      Objetivo Profissional / 
+      Sobre
     </a>
 
     <a
       routerLink="/formacao-academica"
       routerLinkActive="active"
     >
-      Formação Acadêmica /
+      Formação
     </a>
 
     <a
       routerLink="/habilidades"
       routerLinkActive="active"
     >
-      Habilidades / 
+      Habilidades
     </a>
 
     <a
-    routerLink="/contatos"
-    routerLinkActive="active"
+      routerLink="/objetivo-profissional"
+      routerLinkActive="active"
     >
-   Contato
-</a>
+      Projetos
+    </a>
+
+    <a
+      routerLink="/contatos"
+      routerLinkActive="active"
+    >
+      Contato
+    </a>
+
   </nav>
+
 </header>
